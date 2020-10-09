@@ -1,0 +1,20 @@
+<%- include("partials/header") -%>
+
+  <main role="main" class="inner cover">
+    <h1 class=" head cover-heading">Air quality index </h1>
+  <em>  <h3 class=" quote lead">
+      Clean air shouldn't be a privilege dictated by where you can afford to live but a right
+      to which we are all entitled.</h3></em>
+      <form  action="/" method="post">
+        <h2><label class="cover-heading">City</label></h2>
+        <input class="box" type="text" autocomplete="off" name="city" value="">
+      <h2>  <label class="cover-heading">Country</label> </h2>
+        <input  class="box" type="text" autocomplete="off" name="country" value="">
+        <p class="lead">
+          <button type ="submit"  class="btn btn-lg btn-secondary">Go </button>
+        </p>
+
+  </main>
+</form>
+
+<%- include("partials/footer") -%>

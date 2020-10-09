@@ -49,7 +49,7 @@ app.get("/features",function(req,res){
 
  const port = process.env.PORT;
 
-app.listen(3000 || port,function(){
+app.listen(port,function(){
   console.log("Server is running at port 3000");
 });
 

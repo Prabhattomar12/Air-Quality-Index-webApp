@@ -47,7 +47,9 @@ app.get("/features",function(req,res){
   res.render("home");
 });
 
-app.listen(3000,function(){
+ const port = process.env.PORT;
+
+app.listen(3000 || port,function(){
   console.log("Server is running at port 3000");
 });
 
